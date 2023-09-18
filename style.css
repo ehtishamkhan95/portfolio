@@ -194,7 +194,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
 
     header nav {
         width: 92.25%;
@@ -356,7 +356,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     top: 27.82%;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     
     .skills-grid {
         width: 92.19%;
@@ -561,7 +561,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     transition-duration: 0.5s;
 }
 
-@media only screen and (max-width: 1080px)  {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
 
     html {
         min-width: 685px;
@@ -742,7 +742,7 @@ footer nav {
     right: 70.14%;
 }
 
-@media only screen and (max-width: 1080px)  {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     
     .footer-main-div {
         width: 92.19%;
