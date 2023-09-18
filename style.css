@@ -605,6 +605,14 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
         font-size: 2.5rem;
     }
 
+    .project-links {
+        display: none;
+    }
+
+    .project-links-mb {
+        display: block;
+    }
+
 }
 
 
