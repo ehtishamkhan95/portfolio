@@ -407,8 +407,10 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 
     .ring-pattern-skills {
-        top: 88%;
+        top: 70%;
         left: 60%;
+        width: 530px;
+        height: 129px;
     }
 }
 
@@ -790,7 +792,24 @@ footer nav {
     }
 
     .contact-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+    }
+
+    .contact-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-area form {
+        width: 100%;
+        justify-self: flex-start;
+        margin-left: 0;
+        margin-top: 20%;
+        float: left;
     }
 
     .ring-pattern-footer {
