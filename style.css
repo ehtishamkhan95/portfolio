@@ -194,7 +194,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) {
 
     header nav {
         width: 92.25%;
@@ -227,7 +227,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
     header article {
         width: 91.46%;
@@ -356,7 +356,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     top: 27.82%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     
     .skills-grid {
         width: 92.19%;
@@ -375,7 +375,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
 
     .skills-grid {
         width: 92.19%;
@@ -505,7 +505,6 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     background: none;
     border-style: none;
     border-bottom: 1px solid #4EE1A0;
-    color: black;
     padding: 2% 0 1% 0;
     color: white;
     transition-duration: 0.5s;
@@ -551,13 +550,12 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     background: none;
     border-style: none;
     border-bottom: 1px solid #4EE1A0;
-    color: black;
     padding: 2% 0 1% 0;
     color: white;
     transition-duration: 0.5s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px)  {
 
     html {
         min-width: 685px;
@@ -576,7 +574,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
 
     .projects-grid {
         padding-bottom: 60%;
@@ -730,7 +728,7 @@ footer nav {
     right: 70.14%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px)  {
     
     .footer-main-div {
         width: 92.19%;
@@ -770,18 +768,15 @@ footer nav {
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 767px) {
 
     .contact-text h1 {
         font-size: 2.5rem;
+        margin-bottom: 2%;
     }
 
     .contact-area {
         width: 100%;
-    }
-
-    .contact-text h1{
-        margin-bottom: 2%;
     }
 
     .ring-pattern-footer {
