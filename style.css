@@ -238,7 +238,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
 
     header article h1, header span {
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 0;
     }
 
@@ -398,6 +398,12 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
 
     .skills-grid h2, .skills-grid p {
         text-align: center;
+    }
+
+    .skills-grid h2 {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 0;
     }
 
     .ring-pattern-skills {
