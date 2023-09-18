@@ -227,7 +227,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width:767) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
 
     header article {
         width: 91.46%;
