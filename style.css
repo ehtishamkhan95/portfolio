@@ -90,10 +90,6 @@ p {
 
 /* ---------------------------------- Hero Header ---------------------------------- */
 
-html {
-    min-width: 1075px;
-}
-
 header {
     position: relative;
     display: flex;
@@ -198,11 +194,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
 }
 
 
-@media only screen and (max-width: 768px) {
-
-    html {
-        min-width: 685px;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
 
     header nav {
         width: 92.25%;
@@ -235,16 +227,12 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     }
 }
 
-@media only screen and (max-width: 375px) {
-
-    html {
-        min-width: 300px;
-    }
+@media only screen and (min-width: 375px) and (max-width:767) {
 
     header article {
         width: 91.46%;
         margin: 0 auto;
-        margin-top: 10%;
+        margin-top: 0;
         text-align: center;
     }
 
@@ -262,11 +250,11 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
     .profile-picture {
         position: static;
         margin: 0 auto;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     header .contact-me-btn {
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
 
     header nav {
@@ -277,6 +265,7 @@ header .contact-me-btn:hover, .projects-grid .contact-me-btn:hover, .send-messag
         align-items: center;
         margin: 0 auto;
         margin-top: 5%;
+        text-align: center;
     }
 
     header .social-links {
