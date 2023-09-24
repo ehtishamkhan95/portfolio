@@ -793,15 +793,15 @@ input {
 }
 
 .failure-icon-user {
-    top:24%;
+    top:15%;
 }
 
 .failure-icon-email {
-    top: 24%;
+    top: 15%;
 }
 
 .failure-icon-message {
-    top: 48%;
+    top: 40%;
 }
 
 ::placeholder {
