@@ -754,8 +754,18 @@ footer {
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 0.143rem;
+    color: white;
     border-color: #4EE1A0;
     padding: 5% 0 2% 0;
+}
+
+.error {
+    visibility: hidden;
+    color: #FF6F5B;
+    text-align: right;
+    font-family: space-grotesk, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
 }
 
 input {
@@ -763,7 +773,7 @@ input {
     background-color: #242424;
     border-style: none;
     border-bottom: 1px solid #979797;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 2% 5% 5% 5%;
     font-family: space-grotesk-bold, sans-serif;
     font-size: 1rem;
@@ -771,18 +781,27 @@ input {
     letter-spacing: -0.01375rem;
 }
 
-.failure-icon, .error {
-  color: #FF6F5Bed;
+.user-input {
+    position: relative;
 }
 
-.error {
-  font-size: 0.8rem;
-  margin-top: 0.2%;
-  float: right;
+.failure-icon-user, .failure-icon-email, .failure-icon-message {
+    position: absolute;
+    right: 1%;
+    color: #FF6F5B;
+    visibility: hidden;
 }
 
-.failure-icon {
-  opacity: 0;
+.failure-icon-user {
+    top:24%;
+}
+
+.failure-icon-email {
+    top: 24%;
+}
+
+.failure-icon-message {
+    top: 48%;
 }
 
 ::placeholder {
